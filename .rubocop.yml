@@ -1,0 +1,24 @@
+---
+AllCops:
+  Include:
+    - Rakefile
+    - rakelib/**/*
+  Exclude:
+    - build/**/*
+    - vendor/**/*
+ClassLength:
+  Max: 200
+CyclomaticComplexity:
+  Max: 10
+Documentation:
+  Enabled: false
+EmptyLinesAroundBody:
+  Enabled: false
+LineLength:
+  Enabled: false
+MethodLength:
+  Max: 25
+ParameterLists:
+  Max: 6
+PerceivedComplexity:
+  Max: 10
